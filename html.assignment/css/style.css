@@ -1,0 +1,51 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 18px;
+}
+
+header, footer {
+background-color: aqua;
+padding: 20px;
+}
+
+h2 {
+ color: darkblue;
+ }
+
+
+.site-title {
+color: red;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.hobbies-list {
+    list-style-type: square;
+    }
+
+    .hobbies-list li{
+background-color: aqua;
+}
+        
+nav ul {
+list-style: square;
+}
+
+nav li {
+display: inline-block;
+margin-right: 10px;
+}
+
+nav a {
+text-decoration: none;
+background-color: burlywood;
+border: 1px solid black;
+padding: 5px;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: aquamarine;
+  }  
