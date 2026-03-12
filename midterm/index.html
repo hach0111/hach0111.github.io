@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hach0111 midterm</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="page-container">
+
+        <!-- Header with image and title -->
+        <header id="home">
+            <div class="header-image-wrapper">
+                <img src="images/sky-observatory.png" alt="Night sky above an observatory" class="header-image">
+                <h1 class="site-title">Midnight Observatory</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#story">STORY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Article section -->
+            <section id="story" class="content-section">
+                <h2>Life at the Midnight Observatory</h2>
+
+                <article>
+                    <img src="images/midnight-observatory.png" alt="Observatory under the stars" class="article-image">
+
+                    <p>
+                        The Midnight Observatory is a quiet and inspiring place where astronomers
+                        study the mysteries of the universe. Every clear night, the dome opens and
+                        the telescope points toward distant stars, planets, and galaxies.
+                    </p>
+
+                    <p>
+                        Researchers use advanced instruments to observe the sky and collect valuable
+                        data about space. Visitors are often amazed by the beauty of the Milky Way,
+                        the movement of constellations, and the peaceful atmosphere of the observatory.
+                    </p>
+
+                    <p>
+                        From meteor showers to lunar observations, the Midnight Observatory connects
+                        science and wonder in one unforgettable experience. It is a place where
+                        curiosity grows and the universe feels a little closer.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Facts section -->
+            <section class="facts-section">
+                <h2>Facts About Space</h2>
+                <ul>
+                    <li>A black hole forms when a massive star collapses.</li>
+                    <li>There are billions of galaxies in the observable universe.</li>
+                    <li>A year on Mercury is only 88 Earth days long.</li>
+                    <li>The Andromeda Galaxy is our closest large galactic neighbor.</li>
+                </ul>
+            </section>
+
+            <!-- Contact form -->
+            <section id="contact" class="contact-section">
+                <h2>Contact to learn more</h2>
+
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6"></textarea>
+                    </div>
+
+                    <fieldset class="radio-group">
+                        <legend>Would you like to visit the observatory?</legend>
+
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="visit" value="yes">
+
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="visit" value="no">
+
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="visit" value="maybe">
+                    </fieldset>
+
+                    <input type="submit" value="SEND" class="submit-btn">
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; Midnight Observatory.</p>
+        </footer>
+
+    </div>
 </body>
 </html>
